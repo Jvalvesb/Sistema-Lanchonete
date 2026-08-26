@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff7ed;
+    color: #1f2937;
+}
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.lista-produtos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.produto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+.produto h3 {
+    margin-top: 0;
+}
+.produto span {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #c2410c;
+}
+.produto button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ea580c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.produto button:hover {
+    background-color: #c2410c;
+}
+.pedido {
+    margin-top: 40px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+.itens-pedido {
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+.total {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.total span {
+    color: #c2410c;
+}

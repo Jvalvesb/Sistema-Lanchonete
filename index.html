@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Lanchonete</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Lanchonete Sabor & Cia</h1>
+        <p>Monte seu pedido e confira o total.</p>
+        <main>
+            <section>
+                <h2>Cardápio</h2>
+                <div class="lista-produtos">
+                    <article class="produto" data-preco="14">
+                        <h3>Hambúrguer</h3>
+                        <p>Pão, carne, milho, batata palha, e salada</p>
+                        <span>R$14,00</span>
+                        <button class="adicionar">Adicionar ao pedido</button>
+                    </article>
+
+                    <article class="produto" data-preco="16">
+                        <h3>X-Burguer</h3>
+                        <p>Pão, carne, queijo, presunto, milho, batata palha, e salada</p>
+                        <span>R$16,00</span>
+                        <button class="adicionar">Adicionar ao pedido</button>
+                    </article>
+
+                    <article class="produto" data-preco="18">
+                        <h3>X-Egg Burguer</h3>
+                        <p>Pão, carne, queijo, presunto, ovo, milho, batata palha, e salada</p>
+                        <span>R$18,00</span>
+                        <button class="adicionar">Adicionar ao pedido</button>
+                    </article>
+
+                    <article class="produto" data-preco="20">
+                        <h3>X-Bacon</h3>
+                        <p>Pão, carne, bacon, queijo, milho, batata palha, e salada</p>
+                        <span>R$20,00</span>
+                        <button class="adicionar">Adicionar ao pedido</button>
+                    </article>
+
+                    <article class="produto" data-preco="22">
+                        <h3>X-Egg Bacon</h3>
+                        <p>Pão, carne, bacon, queijo, ovo, milho, batata palha, e salada</p>
+                        <span>R$22,00</span>
+                        <button class="adicionar">Adicionar ao pedido</button>
+                    </article>
+
+                    <article class="produto" data-preco="25">
+                        <h3>X-Tudo</h3>
+                        <p>Pão, carne, bacon, ovo, queijo, presunto, milho, batata palha, e salada</p>
+                        <span>R$25,00</span>
+                        <button class="adicionar">Adicionar ao pedido</button>
+                    </article>
+
+                </div>
+            </section>
+            <section class="pedido">
+                <h2>Pedido atual</h2>
+                <div class="itens-pedido" id="itens-pedido">
+                    <p class="mensagem-vazia">Nenhum item adicionado ainda.</p>
+                </div>
+                <p class="total">
+                    Total: <span id="total">R$0,00</span>
+                    <button id="limpar-pedido">Limpar pedido</button>
+                </p>
+            </section>
+        </main>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
