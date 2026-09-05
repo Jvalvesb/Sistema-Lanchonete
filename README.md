@@ -5,7 +5,7 @@ Funcionalidades:
 Exibição do cardápio
 Interação com os itens
 
-Tecnologias:
+Linguagens:
 HTML, CSS, JavaScript
 
 Como executar:
